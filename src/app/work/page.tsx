@@ -82,7 +82,7 @@ export default function Documents() {
                 background="surface"
                 padding="16"
               >
-                <Row fillWidth horizontal="space-between" vertical="center" gap="12">
+                <Row fillWidth horizontal="between" vertical="center" gap="12">
                   <Text variant="body-default-m">{doc.name}</Text>
                   {doc.file ? (
                     <SmartLink href={doc.file}>
