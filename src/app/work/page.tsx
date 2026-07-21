@@ -44,7 +44,7 @@ const sections = [
       { name: "Performance Evaluation Grading", file: null },
     ],
   },
-];
+] as const;
 
 export default function Documents() {
   return (
