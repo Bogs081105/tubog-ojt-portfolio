@@ -47,7 +47,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s OJT Portfolio`,
   description: `Documenting my On-the-Job Training journey as a ${person.role}`,
-  headline: <>Building my journey, one internship day at a time</>,
+  headline: <>Welcome to my Internship Journey</>,
   featured: {
     display: false,
     title: <></>,
@@ -89,7 +89,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        {person.firstName} is an aspiring computer engineer, dedicated to
+        I, {person.firstName}, an aspiring computer engineer is dedicated to
         improving myself and making it big someday. I'm currently a Computer
         Engineering student at the Polytechnic University of the Philippines
         – Sta. Mesa Campus, completing my 300-hour On-the-Job Training at
