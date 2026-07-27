@@ -32,8 +32,8 @@ const sections = [
     title: "During OJT Requirements",
     accent: "accent-alpha-strong",
     documents: [
-      { name: "Weekly Documentation", file: "/documents/during-ojt/Tubog Weekly Documentation 1.pdf" },
-      { name: "Weekly Report", file: "/documents/during-ojt/Week 1 Report_Tubog.pdf" },
+      { name: "Weekly Documentation", file: "/documents/during-ojt/Tubog-Weekly-Documentation-1.pdf" },
+      { name: "Weekly Report", file: "/documents/during-ojt/Week-1-Report_Tubog.pdf" },
     ],
   },
   {
