@@ -6,9 +6,9 @@ export const metadata = {
   description: work.description,
 };
 
-// 👇 This is the ONLY part you need to edit later.
-// Set "file" to the path of the uploaded document once you have it,
-// e.g. "/documents/cover-page.pdf" — leave it as null until then.
+// 👉 To add a file: upload it to public/documents/<folder>/
+// then change the matching "file" value below from null
+// to "/documents/<folder>/<your-filename>.pdf"
 const sections = [
   {
     title: "Before OJT Requirements",
