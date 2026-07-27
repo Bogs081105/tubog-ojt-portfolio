@@ -18,8 +18,8 @@ const sections = [
       { name: "Approval Sheet", file: null },
       { name: "Company Profile", file: null },
       { name: "Memorandum of Agreement", file: null },
-      { name: "Letter of Intent", file: null },
-      { name: "Letter of Endorsement", file: null },
+      { name: "Letter of Intent", file: /documents/before-ojt/Tubog_Letter_of_Intent.pdf },
+      { name: "Letter of Endorsement", file: /documents/before-ojt/Tubog_Letter_of_Endorsement.pdf },
       { name: "Student Waiver", file: null },
       { name: "Internship Agreement", file: null },
       { name: "Consent Form", file: null },
@@ -32,8 +32,8 @@ const sections = [
     title: "During OJT Requirements",
     accent: "accent-alpha-strong",
     documents: [
-      { name: "Weekly Documentation", file: null },
-      { name: "Weekly Report", file: null },
+      { name: "Weekly Documentation", file: /documents/during-ojt/Tubog Weekly Documentation 1.pdf },
+      { name: "Weekly Report", file: /documents/during-ojt/Week 1 Report_Tubog.pdf },
     ],
   },
   {
