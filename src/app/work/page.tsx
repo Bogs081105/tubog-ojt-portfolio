@@ -68,7 +68,7 @@ const sections = [
 
 export default function Documents() {
   return (
-    <Column maxWidth="1" fillWidth gap="48" paddingY="24">
+    <Column maxWidth="m" fillWidth gap="48" paddingY="24">
       <Background mask={{ x: 50, y: 0, radius: 100 }} position="absolute" />
 
       <Column gap="12">
