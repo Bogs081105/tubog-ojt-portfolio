@@ -68,7 +68,7 @@ const sections = [
 
 export default function Documents() {
   return (
-    <Column maxWidth="m" fillWidth gap="48" paddingY="24">
+    <Column maxWidth="1" fillWidth gap="48" paddingY="24">
       <Background mask={{ x: 50, y: 0, radius: 100 }} position="absolute" />
 
       <Column gap="12">
@@ -97,7 +97,14 @@ export default function Documents() {
               </Tag>
             </Row>
 
-            <Column fillWidth gap="8">
+           <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+                gap: "8px",
+                width: "100%",
+              }}
+            >
               {section.documents.map((doc) => (
                 <Card
                   key={doc.name}
@@ -131,7 +138,7 @@ export default function Documents() {
                   </Column>
                 </Card>
               ))}
-            </Column>
+            </div>
           </Column>
         );
       })}
