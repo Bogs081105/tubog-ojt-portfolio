@@ -1,5 +1,6 @@
 import { Background, Card, Column, Heading, Line, Row, SmartLink, Tag, Text } from "@once-ui-system/core";
 import { work, person } from "@/resources";
+import { OjtProgress } from "@/components/OjtProgressTracker";
 
 export const metadata = {
   title: work.title,
