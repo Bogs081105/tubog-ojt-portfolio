@@ -80,6 +80,8 @@ export default function Documents() {
         </Text>
       </Column>
 
+      <OjtProgress />
+
       {sections.map((section) => {
         const uploadedCount = section.documents.filter((d) => d.files.length > 0).length;
 
