@@ -59,7 +59,7 @@ const home: Home = {
       <Text as="span" size="xl" weight="strong">
         PUP Sta. Mesa
       </Text>
-      , currently completing my 300-hour On-the-Job Training at{" "}
+      , currently completing my 240-hour On-the-Job Training at{" "}
       <Text as="span" size="xl" weight="strong">
         FBSC – Alabang
       </Text>
@@ -103,7 +103,7 @@ const about: About = {
     experiences: [
       {
         company: "FBSC – Alabang",
-        timeframe: "OJT — 300 Hours",
+        timeframe: "OJT — 240 Hours",
         role: "Computer Engineering Intern",
         achievements: [
           <>
