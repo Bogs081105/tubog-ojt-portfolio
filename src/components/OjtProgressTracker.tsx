@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 // Edit for changes
 const START_DATE = "2026-07-20"; // First day of OJT
-const TOTAL_HOURS = 300;
+const TOTAL_HOURS = 240;
 const HOURS_PER_WORKDAY = 8;
 
 // Absents and changes/halfday
@@ -13,6 +13,7 @@ const HOURS_PER_WORKDAY = 8;
 const exceptions: Record<string, number> = {
   "2026-07-21": 0, // Absent
   "2026-07-24": 6, // Half day
+  "2026-08-06": 0, // Absent
 };
 
 function countCompletedHours(): number {
