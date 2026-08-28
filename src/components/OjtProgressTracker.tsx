@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 // Edit for changes
 const START_DATE = "2026-07-20"; // First day of OJT
 const TOTAL_HOURS = 240;
-const HOURS_PER_WORKDAY = 8;
+const HOURS_PER_WORKDAY = 9;
 
 // Absents and changes/halfday
 // Format: "YYYY-MM-DD": hoursActuallyWorked
