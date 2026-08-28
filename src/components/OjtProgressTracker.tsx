@@ -14,6 +14,13 @@ const exceptions: Record<string, number> = {
   "2026-07-21": 0, // Absent
   "2026-07-24": 6, // Half day
   "2026-08-06": 0, // Absent
+  "2026-07-28": 0, // Absent
+  "2026-07-31": 7, // Time in 10:00 AM, time out 5:00 PM
+  "2026-08-06": 0, // Absent
+  "2026-08-21": 0, // Absent
+  "2026-08-24": 0, // Absent
+  "2026-08-25": 0, // Absent
+  "2026-08-26": 0, // Absent
 };
 
 function countCompletedHours(): number {
