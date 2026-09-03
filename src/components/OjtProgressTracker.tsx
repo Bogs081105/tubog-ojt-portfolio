@@ -36,7 +36,7 @@ function countCompletedHours(): number {
     const isToday = cursor.getTime() === today.getTime();
 
     if (isWeekday && !isToday) {
-      const key = cursor.toISOString().split("T")[0];
+      const key = `${cursor.getFullYear()}-${String(cursor.getMonth() + 1).padStart(2, "0")}-${String(cursor.getDate()).padStart(2, "0")}`;
       hours += key in exceptions ? exceptions[key] : HOURS_PER_WORKDAY;
     }
 
