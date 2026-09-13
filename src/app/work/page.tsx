@@ -1,4 +1,4 @@
-import { Background, Card, Column, Heading, Line, Row, SmartLink, Tag, Text } from "@once-ui-system/core";
+import { Card, Column, Heading, Line, Row, SmartLink, Tag, Text } from "@once-ui-system/core";
 import { work, person } from "@/resources";
 import { OjtProgress } from "@/components/OjtProgressTracker";
 
@@ -78,7 +78,34 @@ const sections = [
 export default function Documents() {
   return (
     <Column maxWidth="m" fillWidth gap="48" paddingY="24">
-      <Background mask={{ x: 50, y: 0, radius: 100 }} position="absolute" />
+        <video
+     autoPlay
+     loop
+     muted
+     playsInline
+     style={{
+       position: "fixed",
+       top: 0,
+       left: 0,
+       width: "100%",
+       height: "100%",
+       objectFit: "cover",
+       zIndex: -2,
+     }}
+   >
+     <source src="/videos/ojt-background.mp4" type="video/mp4" />
+   </video>
+   <div
+     style={{
+       position: "fixed",
+       top: 0,
+       left: 0,
+       width: "100%",
+       height: "100%",
+       background: "rgba(0,0,0,0.4)",
+       zIndex: -1,
+     }}
+   />
 
       <Column gap="12">
         <Heading variant="display-strong-xs">OJT Documents</Heading>
