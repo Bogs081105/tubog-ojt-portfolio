@@ -40,18 +40,27 @@ const sections = [
     accent: "accent-alpha-strong",
     documents: [
       {
-        name: "Weekly Documentation",
+        name: "Weekly Report",
         files: [
-          { label: "Week 1", file: "/documents/during-ojt/tubog-weekly-documentation-1.pdf" },
-          // Add more like this as weeks go by:
-          // { label: "Week 2", file: "/documents/during-ojt/tubog-weekly-documentation-2.pdf" },
+          { label: "Week 1", file: "/documents/during-ojt/Week_1_Documentation.pdf" },
+          { label: "Week 2", file: "/documents/during-ojt/Week_2_Documentation.pdf" },
+          { label: "Week 3", file: "/documents/during-ojt/Week_3_Documentation.pdf" },
+          { label: "Week 4", file: "/documents/during-ojt/Week_4_Documentation.pdf" },
+          { label: "Week 5", file: "/documents/during-ojt/Week_5_Documentation.pdf" },
+          { label: "Week 6", file: "/documents/during-ojt/Week6_Documentation.pdf" },
+          { label: "Week 7", file: "/documents/during-ojt/Week_7_Documentation.pdf" },
         ],
       },
       {
-        name: "Weekly Report",
+        name: "Weekly Documentation",
         files: [
-          { label: "Week 1", file: "/documents/during-ojt/week-1-report-tubog.pdf" },
-          // { label: "Week 2", file: "/documents/during-ojt/week-2-report-tubog.pdf" },
+          { label: "Week 1", file: "/documents/during-ojt/Week_1_Photo_Documentation.pdf" },
+          { label: "Week 2", file: "/documents/during-ojt/Week_2_Photo_Documentation.pdf" },
+          { label: "Week 3", file: "/documents/during-ojt/Week_3_Photo_Documentation.pdf" },
+          { label: "Week 4", file: "/documents/during-ojt/Week_4_Photo_Documentation.pdf" },
+          { label: "Week 5", file: "/documents/during-ojt/Week_5_Photo_Documentation.pdf" },
+          { label: "Week 6", file: "/documents/during-ojt/Week_6_Photo_Documentation.pdf" },
+          { label: "Week 7", file: "/documents/during-ojt/Week_7_Photo_Documentation.pdf" },
         ],
       },
     ],
