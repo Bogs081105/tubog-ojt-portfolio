@@ -93,7 +93,7 @@ export default function Documents() {
        zIndex: -2,
      }}
    >
-     <source src="/videos/ojt-background.mp4" type="video/mp4" />
+     <source src="/videos/ojt-background-hq.mp4" type="video/mp4" />
    </video>
    <div
      style={{
