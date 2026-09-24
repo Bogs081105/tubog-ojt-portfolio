@@ -59,7 +59,7 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ structure, about }) =
               onClick={() => scrollTo(section.title, 80)}
             >
               <Flex height="1" minWidth="16" background="neutral-strong"></Flex>
-              <Text>{section.title}</Text>
+              <Text style={{ color: "#000000" }}>{section.title}</Text>
             </Flex>
             {about.tableOfContent.subItems && (
               <>
@@ -75,7 +75,7 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ structure, about }) =
                     onClick={() => scrollTo(item, 80)}
                   >
                     <Flex height="1" minWidth="8" background="neutral-strong"></Flex>
-                    <Text>{item}</Text>
+                    <Text style={{ color: "#000000" }}>{item}</Text>
                   </Flex>
                 ))}
               </>
