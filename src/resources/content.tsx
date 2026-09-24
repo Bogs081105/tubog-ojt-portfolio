@@ -90,9 +90,10 @@ const about: About = {
     description: (
       <>
         I, {person.firstName}, an aspiring computer engineer is dedicated to
-        improving myself and making it big someday. I'm currently a Computer
-        Engineering student at the Polytechnic University of the Philippines
-        – Sta. Mesa Campus, completing my 300-hour On-the-Job Training at
+        improving myself as a computer engineering student and aiming to have a bright career
+        . I'm currently a Computer Engineering student at the 
+        Polytechnic University of the Philippines
+        – Sta. Mesa Campus, completing my 240-hour On-the-Job Training at
         FBSC in Alabang.
       </>
     ),
@@ -176,6 +177,7 @@ technical: {
       },
     ],
   },
+};
 
 const blog: Blog = {
   path: "/blog",
