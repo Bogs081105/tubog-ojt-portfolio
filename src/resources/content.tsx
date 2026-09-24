@@ -126,17 +126,49 @@ const about: About = {
       },
     ],
   },
-  technical: {
+technical: {
     display: true,
     title: "Technical skills",
     skills: [
-      // Replace with your actual skills — duplicate this block for more
       {
-        title: "Skill name here",
-        description: <>Short description of what you can do with it.</>,
+        title: "Basic PC Troubleshooting",
+        description: <>Diagnosing and resolving common computer issues such as software errors, performance problems, and general system fixes.</>,
         tags: [
           {
-            name: "Tag",
+            name: "PC Support",
+            icon: "code",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Hardware Troubleshooting",
+        description: <>Experience in troubleshooting Hardware related issues</>,
+        tags: [
+          {
+            name: "Hardware",
+            icon: "code",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "System Administration (Basic)",
+        description: <>Hands-on exposure to System Administration tasks during OJT, including Active Directory usage and VPN access management.</>,
+        tags: [
+          {
+            name: "Sys Ad",
+            icon: "code",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Networking (Student)",
+        description: <>Currently building foundational networking knowledge as part of my Computer Engineering studies.</>,
+        tags: [
+          {
+            name: "Networking",
             icon: "code",
           },
         ],
@@ -144,7 +176,6 @@ const about: About = {
       },
     ],
   },
-};
 
 const blog: Blog = {
   path: "/blog",
